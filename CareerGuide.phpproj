@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>CareerGuide</Name>
+    <ProjectGuid>{b3cc8aac-658c-4a0f-98d6-fbf0b2cbfd18}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <RuntimeVersion>7.3</RuntimeVersion>
+    <SpecificPageValue>testresult.php</SpecificPageValue>
+    <StartAction>SpecificPage</StartAction>
+    <Runtime>PHP</Runtime>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="assets\" />
+    <Folder Include="assets\bootstrap\" />
+    <Folder Include="assets\bootstrap\css\" />
+    <Folder Include="assets\bootstrap\fonts\" />
+    <Folder Include="assets\bootstrap\js\" />
+    <Folder Include="assets\css\" />
+    <Folder Include="assets\Database\" />
+    <Folder Include="assets\fonts\" />
+    <Folder Include="assets\img\" />
+    <Folder Include="assets\img\colleges\" />
+    <Folder Include="assets\js\" />
+    <Folder Include="assets\phpscript\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\bootstrap\css\bootstrap.min.css" />
+    <Content Include="assets\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="assets\bootstrap\js\bootstrap.min.js" />
+    <Content Include="assets\css\Google-Style-Login.css" />
+    <Content Include="assets\css\Hero-Technology.css" />
+    <Content Include="assets\css\styles.css" />
+    <Content Include="assets\css\Team-1.css" />
+    <Content Include="assets\css\Team-Boxed.css" />
+    <Content Include="assets\css\Team.css" />
+    <Content Include="assets\fonts\font-awesome.min.css" />
+    <Content Include="assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="assets\img\0cfd2842-aba8-4399-b5c5-a67291f62a21.jpg" />
+    <Content Include="assets\img\1.jpg" />
+    <Content Include="assets\img\2.jpg" />
+    <Content Include="assets\img\27-270147_question-mark-clip-art-tiny-clipart-question-mark.png" />
+    <Content Include="assets\img\3.jpg" />
+    <Content Include="assets\img\33-330147_animated-gifs-question-marks-question-mark-gif-png.png" />
+    <Content Include="assets\img\66b6fc64-ce3d-4f62-a3fb-3faf4bda6a0f.jpg" />
+    <Content Include="assets\img\a.jpg" />
+    <Content Include="assets\img\add_female_user.png" />
+    <Content Include="assets\img\avatar_2x.png" />
+    <Content Include="assets\img\graduated.png" />
+    <Content Include="assets\img\gyanendra.jpg" />
+    <Content Include="assets\img\HarryPotter.jpg" />
+    <Content Include="assets\img\HermioneGranger.jpg" />
+    <Content Include="assets\img\hero-background-technology.jpg" />
+    <Content Include="assets\img\info.png" />
+    <Content Include="assets\img\male_user_comment.png" />
+    <Content Include="assets\img\Monument.png" />
+    <Content Include="assets\img\RonWeasley.jpg" />
+    <Content Include="assets\img\user-128.png" />
+    <Content Include="assets\js\jquery.min.js" />
+    <Content Include="collegeinfo.php" />
+    <Content Include="colleges.php" />
+    <Content Include="contactus.php" />
+    <Content Include="index.php" />
+    <Content Include="login.php" />
+    <Content Include="performance.php" />
+    <Content Include="profile.php" />
+    <Content Include="10questioninfo.php" />
+    <Content Include="12questions.php" />
+    <Content Include="quicktest10.php" />
+    <Content Include="selectExam.php" />
+    <Content Include="signup.php" />
+    <Content Include="suggestions.php" />
+    <Content Include="testresult.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="10questions.php" />
+    <Compile Include="Aboutus.php" />
+    <Compile Include="assets\Database\DBMySql.php" />
+    <Compile Include="assets\phpscript\FormatedOutput.php" />
+    <Compile Include="assets\phpscript\Logout.php" />
+    <Compile Include="assets\phpscript\sms.php" />
+    <Compile Include="assets\phpscript\Textlocal.class.php" />
+    <Compile Include="changepassword.php" />
+    <Compile Include="feedback.php" />
+    <Compile Include="ForgotPassword.php" />
+    <Compile Include="menu.php" />
+    <Compile Include="otp.php" />
+    <Compile Include="12questioninfo.php" />
+    <Compile Include="quicktest12.php" />
+  </ItemGroup>
+</Project>
